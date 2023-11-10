@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torta de Ruibarbo</title>
+    <link rel="stylesheet" href="recipeStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--SEÇÃO DO MENU-->
+    <header>
+        <div class="header" id="box-logo">
+            <a href="/"><img id="logo" src="imagens/logo.png" alt="logo"></a>
+            <input type="search" placeholder="Procure uma receita aqui..." required id="pesquisa">
+            <input type="search" placeholder="Procurar receita" required id="pesquisaMobile">
+                <button type="submit" id="btn-pesquisa">Procurar</button>
+                <button type="submit" id="btn-pesquisa-mobile"><img src="imagens/lupa.png"></button>
+                <a href="https://www.amazon.com.br/b?ie=UTF8&node=21226688011" target="_blank"><img id="shop" src="imagens/shopping-cart.png" alt="Comprar Agora"></a>
+                <p id="buyNow">Compre<br>agora!</p>
+        </div>
+    </header>
+
+    <!--SEÇÃO DA RECEITA E INGREDIENTES-->
+
+    <main class="corpo">
+        <div class="tela">
+            <div class="txtRecipe">
+                <h1>Torta de Ruibarbo</h1>
+            </div>
+            <div class="imgRecipe">
+                <img src="imgReceitas/RhubarbPie.png" alt="Torta de Ruibarbo" id="covering">
+            </div>
+            <div class="descricao">
+                <h2>Huum... picante e doce!</h2>
+                <p id="rendimento"><img src="imagens/time.png" alt="Duração" class="icon-recipe"> Duração 01:30hrs <img src="imagens/serving.png" alt="Duração" class="icon-recipe"> 6 Porções</p>
+                <p class="txt-description">Ingredientes do jogo: Ruibarbo, Farinha de trigo, Açúcar<br>
+                    Esta receita restaura 215 de energia e 86 de saúde.<br>
+                    Ela pode ser obtida com a Marnie e é vendida por 400g.</p>
+                    <p class="subtitulo">Ingredientes</p><br>
+                    <p class="listas">Massa da Torta</p>
+                    <ul class="ingredientes">
+                        <li>2 copos de farinha</li>
+                        <li>2/3 de xícara de manteiga fria</li>
+                        <li>1 colher de chá de sal</li>
+                        <li>6 ou 7 colheres de sopa de água</li>
+                        <li>leite e açúcar(opcional)</li>
+                    </ul>
+
+                    <p class="listas">Recheio</p>
+                    <ul class="ingredientes">
+                        <li>1 ½ xícara de açúcar</li>
+                        <li>4 xícaras de frutas (ruibarbo e morangos)</li>
+                        <li>3 colheres de sopa de amido de milho</li>
+                        <li>1 colher de chá de sal</li>
+                        <li>1 colher de chá de noz-moscada</li>
+                        <li>1 colher de sopa de margarina</li>
+                    </ul>
+
+                    <p class="subtitulo">Modo de Preparo</p>
+                    <ol class="preparo">
+                        <li>Fatie os morangos em 2 ou 3 pedaços, dependendo do tamanho, e corte o ruibarbo em pedaços de 3,5 cm.</li><br>
+                        <li>Em uma tigela média, misture o açúcar, o amido de milho, o sal e a noz-moscada. Acrescente as frutas e misture bem, depois deixe de lado.</li><br>
+                        <li>Em outra tigela média, misture a farinha e o sal. Em seguida, adicione a manteiga e use um cortador de massa (ou até mesmo os dedos) para misturá-la na farinha, até que a mistura fique parecida com pedaços de massinha ou uma textura mais granulada e solta.</li><br>
+                        <li>Acrescente a água, uma colher de sopa de cada vez, e mexa com um garfo para misturar até formar uma massa. Separe-a em duas partes iguais. Em uma superfície levemente enfarinhada, coloque uma parte da massa e estenda-a com um rolo de massa.</li><br>
+                        <li>Depois que a massa estiver achatada, transfira-a para a fôrma de torta e bata-a cuidadosamente no lugar. Corte as bordas com uma faca para remover o excesso de massa.</li><br>
+                        <li>Despeje o recheio na torta e cubra-o com margarina (pegue pequenas quantidades de margarina e coloque-as sobre o recheio em vários lugares para uma distribuição uniforme). Pegue a segunda parte da massa e repita o processo com a primeira parte e coloque-a sobre o recheio cuidadosamente para cobrir toda a torta.</li><br>
+                        <li>Corte o excesso de massa, desta vez deixando um pouco mais na borda. A massa extra será colocada sob a borda da forma de torta para mantê-la no lugar. Corte fendas no centro da torta para permitir a saída do vapor. Se quiser, você pode usar o excesso de massa para criar desenhos para decorar a torta.</li><br>
+                        <li>Quando estiver pronta, você pode pincelar leite na massa com um pincel de confeiteiro e polvilhar açúcar por cima.</li><br>
+                        <li>Asse em um forno a 190°C por 45 minutos ou até ficar pronto. Deixe esfriar por 10 minutos antes de servir.</li><br>
+                        <li>Picante e doce descrevem muito bem essa torta. A crosta é bonita e escamosa e o recheio é muito saboroso.</li><br>
+                    </ol>
+            </div>
+        </div>
+    </main>
+
+    <!--SEÇÃO DO FOOTER-->
+
+    <footer>
+        <div class="rodape">
+            <p>Newsletter</p>
+            <form action="https://api.sheetmonkey.io/form/4WoZWhiNVmw1VqBhiEXBmP" method="post">
+                <label><input type="text" name="Name" required placeholder="Seu Nome"/></label><br>
+                <label><input type="email" name="Email" required placeholder="Seu Email" /></label><br>
+                <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                <input type="submit" value="Inscrever-se" id="btn-news" />
+            </form>
+            <p id="copyright">Copyright © - Criado e Desenvolvido por <a href="https://www.linkedin.com/in/esdras-luis/">Esdras Luis</a></p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

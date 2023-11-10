@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef em Casa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--SEÇÃO DO MENU-->
+    <header>
+        <div class="header" id="box-logo">
+            <a href="/"><img id="logo" src="imagens/logo.png" alt="logo"></a>
+            <input type="search" placeholder="Procure uma receita aqui..." required id="pesquisa">
+            <input type="search" placeholder="Procurar receita" required id="pesquisaMobile">
+                <button type="submit" id="btn-pesquisa" >Procurar</button>
+                <button type="submit" id="btn-pesquisa-mobile"><img src="imagens/lupa.png"></button>
+                <a href="https://www.amazon.com.br/b?ie=UTF8&node=21226688011" target="_blank"><img id="shop" src="imagens/shopping-cart.png" alt="Comprar Agora"></a>
+                <p id="buyNow">Compre<br>agora!</p>
+        </div>
+    </header>
+
+    <!--SEÇÃO DAS RECEITAS-->
+
+    <section class="corpo">
+        <div class="tela">   
+            <div class="container">
+                <img src="imgReceitas/pinkCake.png" alt="Pink Cake">
+                <div class="texto">
+                    <h2 class="recipe">Bolo Rosa</h2>
+                    <p><img src="imagens/time.png" alt="Duração" class="icon-recipe"> Duração 02:00hr <img src="imagens/serving.png" alt="Duração" class="icon-recipe"> 6 Porções</p>
+                    <button type="button"><a href="pinkcake.html">Ver Receita!</a></button>
+                </div>
+            </div>
+
+            <div class="container">
+                <img src="imgReceitas/algaeSoup.png" alt="Sopa de Alga">
+                <div class="texto">
+                    <h2 class="recipe">Sopa de Alga</h2>
+                    <p><img src="imagens/time.png" alt="Duração" class="icon-recipe"> Duração 40min <img src="imagens/serving.png" alt="Duração" class="icon-recipe"> 3 Porções</p>
+                    <button type="button"><a href="algaesoup.html">Ver Receita!</a></button>
+                </div>
+            </div>
+
+            <div class="container">
+                <img src="imgReceitas/EggplantParmesan.png" alt="Berinjela ao Parmesão">
+                <div class="texto">
+                    <h2 class="recipe">Berinjela ao Parmesão</h2>
+                    <p><img src="imagens/time.png" alt="Duração" class="icon-recipe"> Duração 45min <img src="imagens/serving.png" alt="Duração" class="icon-recipe"> 5 Porções</p>
+                    <button type="button"><a href="eggplantparmesan.html">Ver Receita!</a></button>
+                </div>
+            </div>
+
+            <div class="container">
+                <img src="imgReceitas/RhubarbPie.png" alt="Torta de Ruibarbo">
+                <div class="texto">
+                    <h2 class="recipe">Torta de Ruibarbo</h2>
+                    <p><img src="imagens/time.png" alt="Duração" class="icon-recipe"> Duração 01:30hr <img src="imagens/serving.png" alt="Duração" class="icon-recipe"> 6 Porções</p>
+                    <button type="button"><a href="rhubardpie.html">Ver Receita!</a></button>
+                </div>
+            </div>
+
+            <div class="container">
+                <img src="imgReceitas/GlazedYams.png" alt="Inhames com Cobertura">
+                <div class="texto">
+                    <h2 class="recipe">Inhames com Cobertura</h2>
+                    <p><img src="imagens/time.png" alt="Duração" class="icon-recipe"> Duração 40min <img src="imagens/serving.png" alt="Duração" class="icon-recipe"> 2 à 3 Porções</p>
+                    <button type="button"><a href="glazedyams.html">Ver Receita!</a></button>
+                </div>
+            </div>
+
+            <div class="container">
+                <img src="imgReceitas/ParsnipSoup.png" alt="Sopa de Chirívia">
+                <div class="texto">
+                    <h2 class="recipe">Sopa de Chirívia</h2>
+                    <p><img src="imagens/time.png" alt="Duração" class="icon-recipe"> Duração 01:00hr <img src="imagens/serving.png" alt="Duração" class="icon-recipe"> 5 Porções</p>
+                    <button type="button"><a href="parsnipsoup.html">Ver Receita!</a></button>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+        <!--SEÇÃO DO FOOTER-->
+
+        <footer>
+            <div class="rodape">
+                <p>Newsletter</p>
+                <form action="https://api.sheetmonkey.io/form/4WoZWhiNVmw1VqBhiEXBmP" method="post">
+                    <label><input type="text" name="Name" required placeholder="Seu Nome"/></label><br>
+                    <label><input type="email" name="Email" required placeholder="Seu Email" /></label><br>
+                    <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                    <input type="submit" value="Inscrever-se" id="btn-news" />
+                </form>
+                <p id="copyright">Copyright © - Criado e Desenvolvido por <a href="https://www.linkedin.com/in/esdras-luis/">Esdras Luis</a></p>
+            </div>
+        </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

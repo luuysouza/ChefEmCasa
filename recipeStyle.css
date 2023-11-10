@@ -1,0 +1,312 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    justify-content: center;
+}
+
+/* ESTILIZAÇÃO DO MENU */
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 5px rgba(56, 56, 56, 0.384);
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+#logo{
+    max-width: 180px;
+    max-height: 180px;
+}
+
+#pesquisa{
+    width: 500px;
+    height: 50px;
+    border-radius: 25px 0px 0px 25px;
+    border: 0px;
+    text-indent: 25px;
+    box-shadow: 0 4px 8px 0 rgba(248, 149, 30, 0.5), 0 6px 20px 0 rgba(248, 149, 30, 0.4);
+    display: inline-block;
+}
+
+#pesquisaMobile{
+    width: 500px;
+    height: 50px;
+    border-radius: 25px 0px 0px 25px;
+    border: 0px;
+    text-indent: 25px;
+    box-shadow: 0 4px 8px 0 rgba(248, 149, 30, 0.5), 0 6px 20px 0 rgba(248, 149, 30, 0.4);
+    display: none;
+}
+
+button img{
+    max-width: 30px;
+}
+
+#btn-pesquisa{
+    width: 120px;
+    height: 50px;
+    border-radius: 0px 25px 25px 0px;
+    border: 0px;
+    box-shadow: 0 4px 8px 0 rgba(248, 149, 30, 0.5), 0 6px 20px 0 rgba(248, 149, 30, 0.0);
+    cursor: pointer;
+    background-color: #f8951e;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+#btn-pesquisa-mobile{
+    width: 60px;
+    height: 50px;
+    border-radius: 0px 25px 25px 0px;
+    border: 0px;
+    box-shadow: 0 4px 8px 0 rgba(248, 149, 30, 0.5), 0 6px 20px 0 rgba(248, 149, 30, 0.0);
+    cursor: pointer;
+    background-color: #f8951e;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    display: none;
+}
+
+#btn-pesquisa:hover{
+    background-color: #faae52;
+    transition: 0.5s;
+}
+
+#shop{
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: 40%;
+    transition: 0.5s;
+}
+
+#shop:hover{
+    transform: scale(1.1);
+    
+}
+
+#buyNow{
+    margin-left: 2%;
+    text-align: left;
+    font-style: italic;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+/*ÁREA DA RECEITA*/
+
+.corpo{
+    display: flex;
+}
+
+.tela{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: 3rem;
+    color: #742305;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.imgRecipe{
+    display: flex;
+    max-width: 500px;
+    max-height: 650px;
+    background-color: #f8951e;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#covering {
+    width: 100%;
+    object-fit: cover;
+
+}
+
+h2{
+    margin-top: 15px;
+    text-align: center;
+}
+
+#rendimento{
+    text-align: center;
+}
+
+.txt-description{
+    margin-top: 1%;
+    font-style: italic;
+    text-align: right;
+}
+
+.subtitulo{
+    font-style: italic;
+    font-weight: bolder;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.listas{
+    text-decoration: underline;
+    margin-left: 25px;
+}
+
+.ingredientes{ 
+    margin-top: 3%;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    text-align: flex-start;
+    margin-bottom: 3%;
+}
+
+.ingredientes ul{
+    justify-content: flex-start;
+}
+
+/* ÁREA DO FOOTER */
+
+footer{
+    width: 100%;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f8951e;
+    color: white;
+}
+
+.rodape p{
+    margin-top: 15px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+label input{
+    height: 3rem;
+    width: 25rem;
+    margin: 10px 0px 10px 0px;
+    border: none;
+    border-radius: 15px;
+    text-indent: 25px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.486)
+}
+
+#btn-news{
+    height: 3rem;
+    width: 10rem;
+    border-radius: 15px;
+    border: none;
+    background-color: #742305;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#btn-news:hover{
+    background-color: #faae52;
+    transition: 0.5s;
+}
+
+
+#copyright{
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+#copyright a{
+    color: white;
+}
+
+
+/* RESPONSIVIDADE DO SITE */
+
+@media screen and (max-width: 720px) {
+    #logo {
+        max-width: 80px;
+        max-height: 80px;
+        margin-left: 0px;
+    }
+    
+    #pesquisa{
+        display: none;
+    }
+
+    #pesquisaMobile{
+        display: inline-block;
+        max-width: 150px;
+    }
+
+    #shop{
+        margin-left: 5%;
+    }
+
+    #btn-pesquisa{
+        display: none;
+    }
+
+    #btn-pesquisa-mobile{
+        display: inline-block;
+    }
+
+    /* CORPO DO SITE*/
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .imgRecipe{
+        margin: 10px;
+    }
+
+    .txt-description{
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .preparo li{
+        margin-right: 10px;
+    }
+
+    /* FOOTER */
+
+    label input{
+        width: 15rem;
+    }
+
+    #btn-news{
+        width: 8rem;
+    }
+
+    #copyright{
+        margin: 15px;
+    }
+}
+
+
+@media screen and (max-width: 960px) {
+    #buyNow {
+        display: none;
+    }
+
+    #pesquisa{
+        max-width: 250px;
+    }
+}

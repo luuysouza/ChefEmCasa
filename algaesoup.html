@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sopa de Alga</title>
+    <link rel="stylesheet" href="recipeStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--SEÇÃO DO MENU-->
+    <header>
+        <div class="header" id="box-logo">
+            <a href="/"><img id="logo" src="imagens/logo.png" alt="logo"></a>
+            <input type="search" placeholder="Procure uma receita aqui..." required id="pesquisa">
+            <input type="search" placeholder="Procurar receita" required id="pesquisaMobile">
+                <button type="submit" id="btn-pesquisa">Procurar</button>
+                <button type="submit" id="btn-pesquisa-mobile"><img src="imagens/lupa.png"></button>
+                <a href="https://www.amazon.com.br/b?ie=UTF8&node=21226688011" target="_blank"><img id="shop" src="imagens/shopping-cart.png" alt="Comprar Agora"></a>
+                <p id="buyNow">Compre<br>agora!</p>
+        </div>
+    </header>
+
+    <!--SEÇÃO DA RECEITA E INGREDIENTES-->
+
+    <main class="corpo">
+        <div class="tela">
+            <div class="txtRecipe">
+                <h1>Sopa de Alga</h1>
+            </div>
+            <div class="imgRecipe">
+                <img src="imgReceitas/algaeSoup.png" alt="Sopa de Alga" id="covering">
+            </div>
+            <div class="descricao"> 
+                <h2>Um pouco gosmenta.</h2>
+                <p id="rendimento"><img src="imagens/time.png" alt="Duração" class="icon-recipe"> Duração 40min <img src="imagens/serving.png" alt="Duração" class="icon-recipe"> 3 Porções</p>
+                <p class="txt-description">Ingredientes do jogo: Algas verdes (x4)<br>
+                    Esta receita restaura  75 de energia e 33 de saúde.<br>
+                    Pode ser obtida no Clint depois de atingir 3 corações e é vendida por 100g.</p>
+                    <p class="subtitulo">Ingredientes</p>
+                    <ul class="ingredientes">
+                        <li>25 g de algas marinhas secas*</li>
+                        <li>¼ lb de carne bovina descongelada, moída ou em bife</li>
+                        <li>5 xícaras de água</li>
+                        <li>1 xícara de caldo de carne</li>
+                        <li>2 colheres de chá de óleo de gergelim</li>
+                        <li>2 colheres de chá de molho de soja</li>
+                        <li>2 dentes de alho picados ou 1 colher de chá de alho em pó</li>
+                    </ul>
+
+                    <p><b>*Nota:</b> A receita original usa algas marinhas secas reais. No entanto, se você não gosta da textura ou não tem acesso a esse ingrediente no supermercado local, sinta-se à vontade para usar nori (alga marinha prensada usada para fazer sushi). Ele vai se desintegrar na sopa, mas algumas pessoas podem preferir assim.</p>
+
+                    <p class="subtitulo">Modo de Preparo</p>
+                    <ol class="preparo">
+                        <li>Mergulhe as algas em água até amolecer e depois corte-as em pequenos pedaços com uma faca afiada. Se você estiver usando nori, não precisa necessariamente mergulhá-lo. Eu fiz de qualquer maneira.</li><br>
+                        <li>Em uma panela grande, aqueça o óleo de gergelim em fogo médio-alto e acrescente a carne. Se você estiver usando bife, corte-o em fatias finas antes. Adicione o sal e cozinhe por cerca de um minuto, mexendo para selar todos os lados da carne, e depois acrescente a água e o caldo. Mexa frequentemente para quebrar a carne moída, se for usá-la.</li><br>
+                        <li>Deixe ferver e adicione as algas, o molho de soja e o alho. Tampe e cozinhe em fogo baixo por 20 minutos.</li><br>
+                        <li>Certifique-se de que a carne não esteja rosada e sirva ainda quente, acrescentando mais sal, se necessário.</li><br>
+                        <li>A receita é simples, mas os sabores são fartos e equilibrados, de modo que as algas marinhas não dominam a sopa. O conceito pode parecer um pouco estranho para algumas pessoas, mas eu prometo que é bom.</li><br>
+                    </ol>
+            </div>
+        </div>
+    </main>
+
+    <!--SEÇÃO DO FOOTER-->
+
+    <footer>
+        <div class="rodape">
+            <p>Newsletter</p>
+            <form action="https://api.sheetmonkey.io/form/4WoZWhiNVmw1VqBhiEXBmP" method="post">
+                <label><input type="text" name="Name" required placeholder="Seu Nome"/></label><br>
+                <label><input type="email" name="Email" required placeholder="Seu Email" /></label><br>
+                <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                <input type="submit" value="Inscrever-se" id="btn-news" />
+            </form>
+            <p id="copyright">Copyright © - Criado e Desenvolvido por <a href="https://www.linkedin.com/in/esdras-luis/">Esdras Luis</a></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inhames com Cobertura</title>
+    <link rel="stylesheet" href="recipeStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--SEÇÃO DO MENU-->
+    <header>
+        <div class="header" id="box-logo">
+            <a href="/"><img id="logo" src="imagens/logo.png" alt="logo"></a>
+            <input type="search" placeholder="Procure uma receita aqui..." required id="pesquisa">
+            <input type="search" placeholder="Procurar receita" required id="pesquisaMobile">
+                <button type="submit" id="btn-pesquisa">Procurar</button>
+                <button type="submit" id="btn-pesquisa-mobile"><img src="imagens/lupa.png"></button>
+                <a href="https://www.amazon.com.br/b?ie=UTF8&node=21226688011" target="_blank"><img id="shop" src="imagens/shopping-cart.png" alt="Comprar Agora"></a>
+                <p id="buyNow">Compre<br>agora!</p>
+        </div>
+    </header>
+
+    <!--SEÇÃO DA RECEITA E INGREDIENTES-->
+
+    <main class="corpo">
+        <div class="tela">
+            <div class="txtRecipe">
+                <h1>Inhames com Cobertura</h1>
+            </div>
+            <div class="imgRecipe">
+                <img src="imgReceitas/GlazedYams.png" alt="Inhames com Cobertura" id="covering">
+            </div>
+            <div class="descricao"> 
+                <h2>Doces e saborosos... O açúcar dá um toque de caramelo.</h2>
+                <p id="rendimento"><img src="imagens/time.png" alt="Duração" class="icon-recipe"> Duração 40min <img src="imagens/serving.png" alt="Duração" class="icon-recipe"> 2 à 3 Porções</p>
+                <p class="txt-description">Ingredientes do jogo: Inhame, Açúcar<br>
+                    Esta receita restaura 200 de energia, 80 de saúde<br>
+                    Pode ser obtida através do canal Rainha do Molho e é vendida por 200g.</p>
+                    <p class="subtitulo">Ingredientes</p>
+                    <ul class="ingredientes">
+                        <li>1 ou 2 inhames ou batatas-doces</li>
+                        <li>3 colheres de sopa de margarina</li>
+                        <li>1/4 xícara de açúcar mascavo</li>
+                        <li>2-3 colheres de sopa de xarope de bordo</li>
+                        <li>Noz-moscada e canela (à gosto)</li>
+                    </ul>
+
+                    <p class="subtitulo">Modo de Preparo</p>
+                    <ol class="preparo">
+                        <li>Pré-aqueça o forno a 190°C. Lave e esfregue os inhames para remover qualquer sujeira. Nesse momento, você pode descascar os inhames se quiser, mas eu mantive a pele. Corte os inhames em fatias e coloque-os uniformemente em uma assadeira untada. Não recomendo usar uma assadeira de biscoitos porque as laterais não são suficientemente profundas.</li><br>
+                        <li>Em uma panela pequena, derreta a margarina/manteiga em fogo baixo e adicione o açúcar mascavo. Mexa até que o açúcar se dissolva e, em seguida, adicione o xarope de bordo e continue mexendo por mais um minuto. O resultado será um marrom dourado suave e profundo.</li><br>
+                        <li>Regue a calda sobre as fatias de inhame, virando-as com um garfo ou pinça até que estejam completamente cobertas pela cobertura. Polvilhe noz-moscada e canela por cima.</li><br>
+                        <li>Cubra a assadeira com papel alumínio e leve ao forno. O tempo de cozimento varia de acordo com o tamanho das fatias. As fatias mais finas, como as que fiz, levaram 30 minutos. As mais grossas podem levar cerca de 45 minutos. Elas devem estar macias quando perfuradas com um garfo, mas não muito moles.</li><br>
+                        <li>Retire as fatias de inhame da frigideira, regue com um pouco do excesso de glacê e coma enquanto estiverem quentes.</li><br>
+                    </ol>
+            </div>
+        </div>
+    </main>
+
+    <!--SEÇÃO DO FOOTER-->
+
+    <footer>
+        <div class="rodape">
+            <p>Newsletter</p>
+            <form action="https://api.sheetmonkey.io/form/4WoZWhiNVmw1VqBhiEXBmP" method="post">
+                <label><input type="text" name="Name" required placeholder="Seu Nome"/></label><br>
+                <label><input type="email" name="Email" required placeholder="Seu Email" /></label><br>
+                <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                <input type="submit" value="Inscrever-se" id="btn-news" />
+            </form>
+            <p id="copyright">Copyright © - Criado e Desenvolvido por <a href="https://www.linkedin.com/in/esdras-luis/">Esdras Luis</a></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
