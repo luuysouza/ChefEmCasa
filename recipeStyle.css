@@ -228,6 +228,7 @@ label input{
     .txt-description{
         margin-top: 10px;
         margin-right: 10px;
+        text-align: center;
     }
 
     .preparo li{
