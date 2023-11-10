@@ -29,58 +29,11 @@ header{
 #pesquisa{
     width: 500px;
     height: 50px;
-    border-radius: 25px 0px 0px 25px;
+    border-radius: 25px;
     border: 0px;
     text-indent: 25px;
     box-shadow: 0 4px 8px 0 rgba(248, 149, 30, 0.5), 0 6px 20px 0 rgba(248, 149, 30, 0.4);
     display: inline-block;
-}
-
-#pesquisaMobile{
-    width: 500px;
-    height: 50px;
-    border-radius: 25px 0px 0px 25px;
-    border: 0px;
-    text-indent: 25px;
-    box-shadow: 0 4px 8px 0 rgba(248, 149, 30, 0.5), 0 6px 20px 0 rgba(248, 149, 30, 0.4);
-    display: none;
-}
-
-button img{
-    max-width: 30px;
-}
-
-#btn-pesquisa{
-    width: 120px;
-    height: 50px;
-    border-radius: 0px 25px 25px 0px;
-    border: 0px;
-    box-shadow: 0 4px 8px 0 rgba(248, 149, 30, 0.5), 0 6px 20px 0 rgba(248, 149, 30, 0.0);
-    cursor: pointer;
-    background-color: #f8951e;
-    color: white;
-    font-weight: bolder;
-    font-size: 1rem;
-    display: inline-block;
-}
-
-#btn-pesquisa-mobile{
-    width: 60px;
-    height: 50px;
-    border-radius: 0px 25px 25px 0px;
-    border: 0px;
-    box-shadow: 0 4px 8px 0 rgba(248, 149, 30, 0.5), 0 6px 20px 0 rgba(248, 149, 30, 0.0);
-    cursor: pointer;
-    background-color: #f8951e;
-    color: white;
-    font-weight: bolder;
-    font-size: 1rem;
-    display: none;
-}
-
-#btn-pesquisa:hover{
-    background-color: #faae52;
-    transition: 0.5s;
 }
 
 #shop{
@@ -155,7 +108,7 @@ a{
     border-radius: 8px 8px 0px 0px;
 }
 
-.container img:hover:first-of-type{
+.container img:hover{
     transform: scale(1.1);
     transition: 0.7s;
     border-radius: 8px 8px 8px 8px;
@@ -240,7 +193,6 @@ label input{
     transition: 0.5s;
 }
 
-
 #copyright{
     font-size: 1rem;
     margin-bottom: 15px;
@@ -260,24 +212,11 @@ label input{
     }
     
     #pesquisa{
-        display: none;
-    }
-
-    #pesquisaMobile{
-        display: inline-block;
-        max-width: 150px;
+        max-width: 200px;
     }
 
     #shop{
         margin-left: 5%;
-    }
-
-    #btn-pesquisa{
-        display: none;
-    }
-
-    #btn-pesquisa-mobile{
-        display: inline-block;
     }
 
     /* FOOTER */
